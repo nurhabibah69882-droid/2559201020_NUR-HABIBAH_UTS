@@ -3,8 +3,8 @@
 
 ## Identitas
 - **Nama:** Nur Habibah
-- **NIM:** [isi NIM kamu]
-- **Mata kuliah:** Pemrograman Web Dasar (UTS)
+- **NPM:** 2559201020
+- **Mata kuliah:** Pemrograman Web (UTS)
 
 ## Tema dan objek
 Tema C: Portofolio pribadi. Objek: diri sendiri sebagai mahasiswa Sistem dan Teknologi Informasi.
@@ -28,12 +28,11 @@ Tema C: Portofolio pribadi. Objek: diri sendiri sebagai mahasiswa Sistem dan Tek
 
 ## Sumber gambar
 - Foto profil dan tangkapan layar proyek: dokumentasi pribadi
-- Ilustrasi robot (SVG): dibuat dengan bantuan AI
 - Font: Google Fonts (Playfair Display dan Poppins)
 
 ## Kendala dan cara mengatasinya
-- [isi kendala yang kamu alami, misalnya tampilan di HP atau validasi W3C]
-- [isi cara kamu mengatasinya]
+- kendala saya tadi foto tidak ke ditek
+- saya otak atik nama foto dan saya sesuaikan dengan nama di file yang saya save di file img berulang kali sampai bisa dan ke ditek.
 
 ## Cara menjalankan
 Buka `index.html` di browser.
