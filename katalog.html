@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="only light">
+  <title>PORTOFOLIO PRIBADI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html">PORTOFOLIO PRIBADI</a>
+    <button class="hamburger" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="menu-utama">&#9776;</button>
+    <nav id="menu-utama">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="katalog.html" aria-current="page">Katalog</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="judul-halaman">
+      <h1>Katalog Proyek</h1>
+    </section>
+
+    <section class="katalog">
+      <h2>Proyek yang sudah saya buat</h2>
+      <p class="pengantar">Berikut proyek-proyek yang pernah saya kerjakan selama belajar.</p>
+
+      <div class="kontrol-katalog">
+        <div>
+          <label for="cari-nama">Cari proyek</label>
+          <input type="search" id="cari-nama" placeholder="Ketik nama proyek">
+        </div>
+        <div>
+          <label for="filter-kategori">Kategori</label>
+          <select id="filter-kategori">
+            <option value="semua">Semua</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="katalog-grid" id="daftar-proyek">
+
+        <article class="kartu-proyek">
+          <img src="img/jadwal.jpeg" alt="Tangkapan layar website jadwal kuliah">
+          <div class="isi">
+            <p class="kategori">Web</p>
+            <h3>Jadwal Kuliah</h3>
+            <p>Jadwal kuliah mingguan dalam bentuk tabel yang mudah dibaca.</p>
+          </div>
+        </article>
+
+        <article class="kartu-proyek">
+          <img src="img/kalkulator.jpeg" alt="Tangkapan layar kalkulator sederhana">
+          <div class="isi">
+            <p class="kategori">Utilitas</p>
+            <h3>Kalkulator Sederhana</h3>
+            <p>Kalkulator sederhana dengan tampilan yang rapi dan menarik.</p>
+          </div>
+        </article>
+
+        <article class="kartu-proyek">
+          <img src="img/profil.jpeg" alt="Tangkapan layar halaman profil biodata">
+          <div class="isi">
+            <p class="kategori">Web</p>
+            <h3>Profil Biodata</h3>
+            <p>Halaman biodata sederhana yang berisi profil diri.</p>
+          </div>
+        </article>
+
+        <article class="kartu-proyek">
+          <img src="img/rsud.jpeg" alt="Tangkapan layar website RSUD">
+          <div class="isi">
+            <p class="kategori">Web</p>
+            <h3>Web RSUD</h3>
+            <p>Website rumah sakit umum daerah yang dibuat sebagai latihan saat mengikuti bootcamp.</p>
+          </div>
+        </article>
+
+        <article class="kartu-proyek">
+          <img src="img/taskmate.jpeg" alt="Tangkapan layar website pencatat tugas TaskMate">
+          <div class="isi">
+            <p class="kategori">Produktivitas</p>
+            <h3>TaskMate</h3>
+            <p>Web pencatat jadwal tugas yang menandai tugas selesai dan belum selesai, dengan pengingat deadline.</p>
+          </div>
+        </article>
+
+        <article class="kartu-proyek">
+          <img src="img/ultah.jpeg" alt="Tangkapan layar halaman ulang tahun bertema">
+          <div class="isi">
+            <p class="kategori">Web</p>
+            <h3>Ulang Tahun</h3>
+            <p>Halaman ulang tahun dengan tema berbeda sesuai tanggal lahir dan zodiak.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nur Habibah. Sistem dan Teknologi Informasi.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="only light">
+  <title>PORTOFOLIO PRIBADI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html">PORTOFOLIO PRIBADI</a>
+    <button class="hamburger" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="menu-utama">&#9776;</button>
+    <nav id="menu-utama">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="katalog.html">Katalog</a></li>
+        <li><a href="kontak.html" aria-current="page">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="judul-halaman">
+      <h1>Kontak</h1>
+    </section>
+
+    <div class="kontak-grid">
+      <article class="info-kontak">
+        <h2>Hubungi saya</h2>
+        <address>
+          <p>GANTI: Pangkal Pinang</p>
+          <p>Email: <a href="nurhabibah69882@gmail.com">nurhabibah69882@gmail.com</a></p>
+        </address>
+        <ul class="medsos">
+          <li><a href="https://www.instagram.com/acuuuuaja" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://github.com/nurhabibah69882-droid" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </article>
+
+      <section class="form-kontak">
+        <h2>Kirim pesan</h2>
+        <form action="#" method="post">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" name="nama" placeholder="Nama lengkap" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+
+          <label for="hp">Nomor HP</label>
+          <input type="tel" id="hp" name="hp" placeholder="081234567890" pattern="[0-9]{10,13}" title="Isi 10 sampai 13 digit angka" required>
+
+          <label for="keperluan">Keperluan</label>
+          <select id="keperluan" name="keperluan" required>
+            <option value="">Pilih keperluan</option>
+            <option value="kerja-sama">Kerja sama atau lowongan</option>
+            <option value="pertanyaan">Pertanyaan</option>
+            <option value="saran">Saran untuk website</option>
+          </select>
+
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="5" minlength="10" maxlength="500" placeholder="Tulis pesanmu (10 sampai 500 karakter)" required></textarea>
+
+          <button class="tombol-form" type="submit">Kirim pesan</button>
+          <p id="pesan-sukses" class="sukses" role="status" hidden></p>
+        </form>
+      </section>
+    </div>
+
+    <section class="peta">
+      <h2>Lokasi</h2>
+      <iframe title="Peta lokasi" src="https://www.google.com/maps?q=Indonesia&amp;output=embed" loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nur Habibah. Sistem dan Teknologi Informasi.</p>
+  </footer>
+</body>
+</html>
